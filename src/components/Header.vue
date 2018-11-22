@@ -21,10 +21,10 @@
   color: #409EFF;
   font-size: 20px;
 }
-.el-menu {
+.header .el-menu {
   padding-left: 400px;
 }
-.el-menu-item {
+.header .el-menu-item {
   font-size: 16px;
 }
 </style>

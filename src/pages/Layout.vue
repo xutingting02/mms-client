@@ -1,5 +1,5 @@
 <template lang="html">
-<div>
+<div class="layout">
   <el-container>
     <el-header>
       <Header></Header>
@@ -26,7 +26,7 @@ export default {
 </script>
 
 <style lang="css">
-.el-header {
+.layout .el-header {
   margin: 0;
   padding: 0;
 }
