@@ -69,7 +69,7 @@
       align="left"
       prop="sex"
       label="性别"
-      width="180">
+      width="100">
       <template slot-scope="scope">
         {{scope.row.sex === '1' ? '男' : '女'}}
       </template>
@@ -85,7 +85,7 @@
       prop="address"
       label="地址">
     </el-table-column>
-    <el-table-column label="操作" align="left">
+    <el-table-column label="操作" align="left" width="200">
       <template slot-scope="scope">
         <el-button
           size="mini"
