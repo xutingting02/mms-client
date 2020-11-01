@@ -1,0 +1,20 @@
+{
+    "data": [
+      {
+        "id": "1",
+        "name": "青霉素",
+        "price": "123",
+        "type": "3",
+        "number": 5
+      },
+      {
+        "id": "3",
+        "name": "阿莫西林",
+        "price": "123",
+        "type": "3",
+        "number": 5
+      }
+    ],
+    "totalSize": 20
+  }
+  

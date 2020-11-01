@@ -1,24 +1,24 @@
 <template lang="html">
     <div>
         <Bread :breadList="breadList"></Bread>
-        <Records-list></Records-list>
+        <Sale-list></Sale-list>
     </div>
 </template>
 
 <script>
-import RecordsList from '@/components/RecordsList'
+import SaleList from '@/components/SaleList'
 import Bread from '@/components/Bread'
 export default {
     components: {
-        RecordsList,
+        SaleList,
         Bread
     },
     data: function() {
         return {
             breadList: [{
                     id: '1',
-                    name: '就诊记录',
-                    path: '/manage/records'
+                    name: '销售清单',
+                    path: '/manage/sale'
                 },
                 {
                     id: '2',
